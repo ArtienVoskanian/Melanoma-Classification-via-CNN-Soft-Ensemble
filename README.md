@@ -5,7 +5,7 @@ This project implements a deep learning pipeline for melanoma classification usi
 
 Unlike many in-domain validation studies, this project explicitly evaluates external generalization by training on ISIC 2020 and testing on ISIC 2019, where ground-truth labels are publicly available. This setup provides insight into robustness under real-world distribution variation — a critical challenge in medical AI deployment.
 
-**Key Features**
+##**Key Features**
 
 Transfer learning with ResNet50 and EfficientNet-B4
 
