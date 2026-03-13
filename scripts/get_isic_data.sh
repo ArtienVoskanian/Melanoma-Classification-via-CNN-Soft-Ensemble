@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Downloads ISIC challenge files into the repo's Datasets/ directory.
-# This script assumes it lives at: z16/data/scripts/get_isic_data.sh
-# and will write to:            z16/data/Datasets/...
+# Downloads ISIC challenge files into the repo's data/Datasets/ directory.
+# This script assumes it lives at: data/scripts/get_isic_data.sh
+# and will write to:              data/Datasets/...
 #
 # Usage:
 #   ./scripts/get_isic_data.sh
