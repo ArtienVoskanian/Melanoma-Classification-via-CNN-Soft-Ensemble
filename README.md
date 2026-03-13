@@ -20,3 +20,34 @@ Baseline comparison using handcrafted dermatologic features + Random Forest
 ROC and Precision–Recall analysis under extreme class imbalance
 
 Exploration of ensemble modeling for improved robustness
+
+## Download Data
+
+The ISIC image dataset is ~25GB (plus metadata), so it is **not included in this repo**.  
+Use the provided script to download the required files into the project’s `Datasets/` directory.
+
+### Steps
+
+From the `z16/data` directory, run:
+
+```bash
+cd z16/data
+bash scripts/get_isic_data.sh
+# or, if executable:
+./scripts/get_isic_data.sh
+```
+
+### Output location
+
+After running, you should have files under:
+
+- `z16/data/Datasets/ISIC_2020_Training_JPEG.zip`
+- `z16/data/Datasets/ISIC_2020_Training_GroundTruth_v2.csv`
+- `z16/data/Datasets/ISIC_2019_Test_Input.zip`
+- `z16/data/Datasets/ISIC_2019_Test_GroundTruth.csv`
+- `z16/data/Datasets/ISIC_2019_Test_Metadata.csv`
+
+### Notes
+
+- Ensure you have at least **~30GB free** before downloading.
+- The `Datasets/` directory is ignored by git (not committed).
