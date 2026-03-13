@@ -30,6 +30,7 @@ numpy, pandas, matplotlib, seaborn, Pillow, scikit-image, tqdm, scipy, scikit-le
 pip install numpy pandas matplotlib seaborn Pillow scikit-image tqdm scipy scikit-learn torch torchvision timm
 ```
 > For GPU support, install PyTorch with the appropriate CUDA version via the [PyTorch installation guide](https://pytorch.org/get-started/locally/).
+
 ## Download Data
 
 The ISIC image dataset is ~25GB (plus metadata), so it is **not included in this repo**.  
@@ -37,10 +38,10 @@ Use the provided script to download the required files into the project’s `Dat
 
 ### Steps
 
-From the `z16/data` directory, run:
+From the `data` directory, run:
 
 ```bash
-cd z16/data
+cd data
 bash scripts/get_isic_data.sh
 # or, if executable:
 ./scripts/get_isic_data.sh
@@ -50,11 +51,11 @@ bash scripts/get_isic_data.sh
 
 After running, you should have files under:
 
-- `z16/data/Datasets/ISIC_2020_Training_JPEG.zip`
-- `z16/data/Datasets/ISIC_2020_Training_GroundTruth_v2.csv`
-- `z16/data/Datasets/ISIC_2019_Test_Input.zip`
-- `z16/data/Datasets/ISIC_2019_Test_GroundTruth.csv`
-- `z16/data/Datasets/ISIC_2019_Test_Metadata.csv`
+- `data/Datasets/ISIC_2020_Training_JPEG.zip`
+- `data/Datasets/ISIC_2020_Training_GroundTruth_v2.csv`
+- `data/Datasets/ISIC_2019_Test_Input.zip`
+- `data/Datasets/ISIC_2019_Test_GroundTruth.csv`
+- `data/Datasets/ISIC_2019_Test_Metadata.csv`
 
 ### Notes
 
