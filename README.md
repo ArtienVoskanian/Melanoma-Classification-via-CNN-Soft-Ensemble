@@ -21,6 +21,15 @@ ROC and Precision–Recall analysis under extreme class imbalance
 
 Exploration of ensemble modeling for improved robustness
 
+## Requirement
+Python version: 3.11
+
+## Dependencies
+numpy, pandas, matplotlib, seaborn, Pillow, scikit-image, tqdm, scipy, scikit-learn, torch, torchvision, timm
+```bash
+pip install numpy pandas matplotlib seaborn Pillow scikit-image tqdm scipy scikit-learn torch torchvision timm
+```
+> For GPU support, install PyTorch with the appropriate CUDA version via the [PyTorch installation guide](https://pytorch.org/get-started/locally/).
 ## Download Data
 
 The ISIC image dataset is ~25GB (plus metadata), so it is **not included in this repo**.  
