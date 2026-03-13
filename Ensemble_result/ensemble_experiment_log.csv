@@ -1,0 +1,2 @@
+Experiment,ResNet ROC-AUC,ResNet PR-AUC,EffNet ROC-AUC,EffNet PR-AUC,Correlation,Mean Disagreement,Best Ensemble Type,Best Weight (ResNet),Best Validation ROC-AUC,Best Validation PR-AUC
+Baseline (saved validation predictions),0.8872173046393358,0.18751431322740275,0.9085040699728056,0.21087962959798948,0.5416393195650224,0.12105786055326462,Logit,0.66,0.9197298152590825,0.22775915358973323
